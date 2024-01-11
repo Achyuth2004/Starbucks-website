@@ -1,0 +1,144 @@
+/* bin.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px 20px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 50px;
+    width: auto;
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.textbox {
+    flex: 1;
+}
+
+.textbox h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.textbox span {
+    color: #00704A; /* Starbucks green */
+}
+
+.textbox p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.textbox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #00704A;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.textbox a:hover {
+    background-color: #005c3b; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+.image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+header a:hover {
+    color: #017143;
+    text-decoration: underline;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 15px; /* Adjust the margin as needed */
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-right: 5px; /* Add some space between input and button */
+}
+
+.search-container button {
+    width: 80px; /* Adjust button width */
+    padding: 8px;
+    border: none;
+    /*background: #00704A;  Starbucks green 
+    color: white;*/
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ /*.search-container button:hover {
+    background: #005c3b; Darker shade on hover 
+}*/
+#carouselExampleFade {
+    height: 400px;
+     /* Set a fixed height for the carousel */
+}
+
+.carousel-inner .carousel-item img {
+    object-fit:contain ; /* Ensure the images cover the whole area without distortion */
+    height: 100%; /* Make the images fill the height of the carousel */
+    width: 100%; /* Ensure the images cover the width */
+}
+.events{
+    background-color: silver;
+    padding-bottom: 30px;
+}
+.events h2{
+    text-transform: uppercase;
+    margin: 20px;
+    padding-left: 30px;
+    color: #017143;
+}
+footer{
+    font-size: 20px;
+    text-align: right;
+}
